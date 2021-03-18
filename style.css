@@ -1,0 +1,83 @@
+:root {
+    --primary: coral;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 7rem;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    height: 100vh;
+}
+
+main {
+    border-top: 10px;
+    border-top-style: solid;
+    border-top-color: var(--primary);
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--primary);
+}
+
+footer {
+  display: flex;
+  bottom: 0;
+  height: 10vh;
+}
+
+.jammies {
+    background-image:url(./Assets/JamaDog.png);
+    background-position:top;
+    background-size:cover;
+}
+
+.bg-gold {
+    background-color: #feb932;
+}
+
+.title-bottom {
+    width: 7vw;
+    height: .5rem;
+    background-color: var(--primary);
+    margin-bottom: 2rem;
+}
+
+.heavy-padding {
+    padding-top: 75vh;
+}
+
+.heavy-margin-left {
+    margin-left: 20vw;
+}
+
+.heavy-margin-right {
+    margin-right: 20vw;
+}
+
+.mid-margin-left {
+    margin-left: 15vw;
+}
+
+.mid-margin-right {
+    margin-right: 15vw;
+}
+
+.link {
+    color: var(--text-color);
+}
+
+.link:hover {
+    color: var(--danger);
+    cursor: pointer;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
